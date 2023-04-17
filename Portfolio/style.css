@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+/* Fonts */
+/* font-family: 'Karla', sans-serif;
+
+  font-family: 'Poppins', sans-serif;
+
+  font-family: 'Quicksand', sans-serif; */
+
+/* ////////////////////////////// */
+
+#hero-sec {
+  background-image: url(./images/hero-bg.svg);
+  background-size: cover;
+}
+
+/* Nav CSS */
+nav {
+  padding: 20px 30px;
+  background: transparent;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10000;
+}
+.sidebar-logo {
+  padding: 0 0 0 30px;
+  width: 80px;
+}
+
+#div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div1-h1 {
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.div1-h1:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.div1-h1 a {
+  text-decoration: none;
+  color: black;
+}
+#mobile-div {
+  display: none;
+}
+#btn-div {
+  display: none;
+}
+
+.div3-btn {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #ccf381;
+}
+.div3-btn a {
+  text-decoration: none;
+  color: #111;
+}
+.div3-btn a:visited {
+  color: black;
+}
+.div3-btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+#hero-sec2 {
+  padding: 100px 30px 160px 30px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.hs2-div2 {
+  padding: 20px 10px;
+  max-width: 700px;
+}
+.hs2-div2 h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+.hs2-div2-img img {
+  max-width: 100%;
+  /* height: auto; */
+}
+.hs2-div2 h1 span {
+  font-weight: 400;
+}
+.hs2-div2 p {
+  padding: 5px 0 10px 0;
+  font-size: 25px;
+}
+
+.hs2-div2-btn {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 10px;
+  background: #4831d4;
+  color: white;
+  font-size: 20px;
+  transition: ease-out 0.5s;
+}
+.hs2-div2-btn:hover {
+  box-shadow: inset 300px 0 0 0 #ccf381;
+  color: #4831d4;
+}
+/* ////////////////////////////// */
+#hero-2 {
+  padding: 20px 30px;
+}
+.hero2-h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #4831d4;
+}
+.hero-div0 {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero2-div1 {
+  display: flex;
+  align-items: center;
+  /* border: solid red; */
+  /* width: 40%; */
+  /* height: 200px; */
+}
+.hero2-div1 h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.hero2-div1 img {
+  padding: 50px 0 0 10px;
+}
+
+.hero2-div2 {
+}
+.stack-div1 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stack-div2 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stack-p1 {
+  padding: 10px 35px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  background: #ccf381;
+  cursor: pointer;
+}
+.stack-p2 {
+  padding: 10px 35px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  background: #4831d4;
+  cursor: pointer;
+  color: white;
+}
+.stack-p3 {
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  background: #e8e7ee;
+  cursor: pointer;
+  color: black;
+}
+
+.stack-p4 {
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 27px;
+  background: black;
+  cursor: pointer;
+  color: white;
+}
+/* ///////////////////////////////// */
+#projects {
+  padding: 100px 30px;
+}
+.proj-div1 h1 {
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.image-div1,
+.image-div2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.image-div1 h2,
+.image-div2 h2 {
+  font-weight: 200;
+}
+.pd1,
+.pd2,
+.pd3,
+.pd4 {
+  margin-bottom: 50px;
+}
+.img-div1 {
+  border-radius: 10px;
+}
+.img-div1:hover,
+.img-div2:hover,
+.img-div3:hover,
+.img-div4:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.img-div2 {
+  margin-top: 230px;
+  border-radius: 10px;
+}
+.img-div3 {
+  border-radius: 10px;
+}
+.img-div4 {
+  margin-top: 330px;
+
+  border-radius: 10px;
+}
+
+/* //////////////////////////// */
+#forms-sec {
+  text-align: center;
+  padding: 20px 30px 100px 30px;
+}
+.form-div1 h1 {
+  color: #4831d4;
+  text-align: center;
+}
+.form-div1 p {
+  text-align: center;
+}
+
+.fifth-mid-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0 0 0;
+  flex-wrap: wrap;
+}
+.fifth-mid-1 h2 {
+  text-align: left;
+}
+.fifth-mid-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0 100px 0;
+  flex-wrap: wrap;
+}
+.fifth-mid-2 h2 {
+  text-align: left;
+}
+.input1 {
+  border: solid rgba(0, 0, 0, 0.678);
+  border-width: 0 0 1px 0;
+  width: 67vw;
+  padding: 30px 0 20px 0;
+  font-size: 20px;
+  outline: none;
+}
+.input3 {
+  border: solid rgba(0, 0, 0, 0.678);
+  border-width: 1px;
+  width: 67vw;
+  height: 40vh;
+  padding: 20px 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.mini-text {
+  font-weight: 300;
+  color: #818181;
+}
+.sign-btn {
+  padding: 10px 80px;
+  background: transparent;
+  border: solid 2px #4831d4;
+  transition: ease-out 0.5s;
+  margin: 0 auto;
+  font-size: 20px;
+  color: black;
+}
+.sign-btn:hover {
+  box-shadow: inset 300px 0 0 0 #4831d4;
+  color: white;
+}
+
+/* ////////////////////////// */
+/* Footer */
+footer {
+  /* height: 400px; */
+  margin-top: 50px;
+  padding: 200px 30px 50px 30px;
+  background: #4831d4;
+}
+.footer-content img {
+  padding-bottom: 20px;
+}
+.footer-content h1 {
+  color: white;
+  font-weight: 300;
+}
+.hr-line {
+  color: white;
+  margin: 20px 0 0 0;
+}
+.footer-base {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ftb-1 {
+  display: flex;
+}
+.ftb-1 h3 {
+  color: white;
+  font-weight: 300;
+}
+.ftb-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
+
+/* //////////////////////////// */
+/* Media Queries */
+@media only screen and (min-width: 240px) and (max-width: 1024px) {
+  #mobile-div {
+    display: contents;
+  }
+  #btn-div {
+    display: contents;
+  }
+  .sidepanel {
+    height: 250px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s;
+  }
+
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  #div1 {
+    display: none;
+  }
+  .stack-p1,
+  .stack-p2,
+  .stack-p3 {
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+  .stack-p4 {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .img-div1 {
+    width: 100%;
+
+    border-radius: 10px;
+  }
+
+  .img-div2 {
+    width: 100%;
+
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .img-div3 {
+    width: 100%;
+
+    border-radius: 10px;
+  }
+  .img-div4 {
+    width: 100%;
+
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+}
+/* //////////////////////////////// */
+/* Nav Sticky on scroll */
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+.sticky-color a {
+  color: white;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Document</title>
+
+    <!--/////////////////////-->
+
+    <!-- External links -->
+    <!-- Javascript library link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Icons link -->
+    <link rel="icon" type="image/x-icon" href="./images/event_logo.png" />
+    <script
+      src="https://kit.fontawesome.com/783ddb0a64.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- /////////////////////////// -->
+    <!-- Hero Section -->
+    <div id="hero-sec">
+      <nav id="navbar">
+        <!-- First Div -->
+        <div id="div1" >
+          <h2 class="div1-h1"><a href="#" class="sticky-color">About Me</a></h1>
+          <h2 class="div1-h1"><a href="#" class="sticky-color">Portfolio</a></h1>
+        </div>
+
+        <!-- Btn Div -->
+        <div id="btn-div">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+
+        <!-- Second Div -->
+        <div id="div2">
+          <img src="./images/logo.png" width="50px" class="side-pan-img" />
+        </div>
+
+        <!-- Third Div -->
+        <div id="div3">
+          <button class="div3-btn"><a href="#contact">Contact Me</a></button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-div">
+          <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <img src="./images/logo.png" class="sidebar-logo" width="60px" />
+            <a href="#aboutme">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ///////////////////////////// -->
+      <!-- Hero Section 2 -->
+      <div id="hero-sec2">
+        <div class="hs2-div2">
+          <h1>
+            My name  <br />is
+            <span>Kelvin Kumordzi</span>
+          </h1>
+
+          <p><a id="aboutme"></a>
+            I am a 20 year old aspiring full stack developer and I hope to use
+            my abilities to change the world!
+          </p>
+
+          <button class="hs2-div2-btn">Hire Me</button>
+        </div>
+
+        <!-- ////// -->
+        <div class="hs2-div2-img">
+          <img src="./images/me-animpji.svg" width="400px"  />
+        </div>
+
+        <div class="">
+          <h1>&nbsp;</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ///////////////////////////// -->
+    <!-- Second Part of the hero section -->
+    <div id="hero-2">
+      <h2 class="hero2-h2">My Stack</h2>
+  <div class="hero-div0">
+  <div class="hero2-div1">
+    <h1>I am Proficient with <br />these basic & essential <br /> skills &nbsp; </h1>
+    <img src="./images/arrow.svg" width="70px"/>
+  </div>
+
+  <div class="hero2-div2">
+    <div class="stack-div1">
+      <button class="stack-p1"><i class="fa-brands fa-html5 fa-bounce fa-lg" style="color: #ff8040;"></i> &nbsp; Html</button>
+      <button class="stack-p2"><i class="fa-brands fa-react fa-shake fa-lg" style="color: #ccf381;"></i> &nbsp; React</button>
+    </div>
+
+    <div class="stack-div2">
+      <button class="stack-p3"><i class="fa-brands fa-css3 fa-flip fa-lg" style="color: #0080c0;"></i>&nbsp; CSS</button>
+      <button class="stack-p4"><i class="fa-brands fa-js fa-spin fa-lg" style="color: #ffff80;"></i> &nbsp; Javascript</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- /////////////////////////////// -->
+<!-- Projects section -->
+<div id="projects">
+  <div class="proj-div1">
+    <h1 data-aos="fade-up"><a id="portfolio"></a>Latest projects</h1>
+  </div>
+
+  <div class="image-div1" >
+      <div class="pd1" data-aos="fade-right">
+        <a href="https://eventsp1.netlify.app/"><img src="./images/Quote.png" class="img-div1" /></a>
+        <h2>Events website</h2>
+      </div>
+      
+
+  <!-- //////////// -->
+  <div class="pd2" data-aos="fade-left">
+    <a href="https://justguess.netlify.app/"><img src="./images/2.png" class="img-div2" /></a>
+    <h2>Just Guess</h2>
+  </div>
+  </div>
+
+  <!-- //////// -->
+  <div class="image-div2" >
+    <div class="pd3" data-aos="fade-right">
+      <a href="https://animequoteio.netlify.app/"><img src="./images/3.png" class="img-div3" /></a>
+      <h2>Anime-Quote Generator</h2>
+    </div>
+  
+    <!-- //////////// -->
+    <div class="pd4" data-aos="fade-left">
+      <a href="https://dicereollgame.netlify.app/"><img src="./images/4.png" class="img-div4" /></a>
+      <h2>Dice Roll Game</h2>
+    </div>
+    </div>
+
+</div>
+
+
+<!-- //////////////////////// -->
+<!-- Forms Section -->
+<div id="forms-sec">
+<div class="form-div1">
+<h1><a id="contact"></a>Let's make your dream a reality</h1>
+<p> I specialize in creating custom software solutions tailored to meet your specific needs.<br />
+  Whether you're looking to streamline your business processes, improve user experiences, or create a<br />
+   new web or mobile app, I'm here to help.</p>
+</div>
+<form action="https://formsubmit.co/fc2885fe830d5ac0e431e57a2a51289a" method="POST">
+  <div class="form-div2">
+    <div class="fifth-mid-1">
+      <h2 class="fifth-header1">
+        What is your name?<br />
+        <input
+          type="text"
+          class="input1"
+          placeholder="Enter your name" autofocus/>
+      </h2>
+    </div>
+    <div class="fifth-mid-2">
+      <h2 class="fifth-header3">
+        What service would you need? <br />
+        <!-- <input type="textarea"  class="input3" placeholder="Tell us something" /> -->
+        <textarea class="input3" placeholder="Tell us something" autofocus></textarea>
+        <p class="mini-text">You’ll get a response as soon as soon as your needs are recorded</p>
+      </h2>
+      
+    </div>
+  </div>
+  <button class="sign-btn" type="submit">Submit</button>
+</form>
+
+</div>
+
+
+
+<!-- ///////////////// -->
+<!-- Footer section -->
+
+<footer>
+  <div class="footer-content">
+<img src="./images/logo.png" width="60px" />
+<h1>Kelvin Kumordzi</h1>
+<hr class="hr-line"/>
+<div class="footer-base">
+  <div class="ftb-1">
+    <img src="./images/copyright.png" width="30px" class="ftb-img1"/>&nbsp;
+    <h3>Kelvin Kumordzi..kk..dev</h3>
+  </div>
+
+  <div class="ftb-2">
+    <a href="https://github.com/Kelvinsgram"><img src="./images/github.svg" width="30px"/></a>
+    <a href="https://twitter.com/kumordziii"><img src="./images/twitter.svg" width="30px"/></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./images/mail.svg" width="30px"/></a>
+  </div>
+</div>
+  </div>
+</footer>
+<!-- Script for JS library -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:200,
+    duration:900
+  });
+</script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
